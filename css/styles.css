@@ -14,8 +14,21 @@ body {
     color: #4d5ae5;
 }
 
-.text {
+.text-one {
     color: #2e2f42;
+}
+
+.heading {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em
+}
+
+.paragraph-one {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 .list {
@@ -189,10 +202,13 @@ background-color: #404BBF;
  color: #434455;
 }
 
-.paragraph-1 {
-    line-height: 1.5;
+.paragraph-jeden {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #434455;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .third-section {
@@ -208,7 +224,7 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 
-.list-item-2 {
+.list-item-dwa {
     background-color: #FFFFFF;
 }
 
@@ -218,7 +234,6 @@ a {
  line-height: 1.16667;
  letter-spacing: 0.03em;
  text-transform: uppercase;
- color: #2e2f42;
 }
 
 a:hover,
@@ -240,8 +255,12 @@ a:focus {
 
 .paragraph-footer {
     line-height: 1.5;
-    color: var(--paragraph-2);
+    color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.text {
+    color: #f4f4fd;
 }
 
 
