@@ -15,7 +15,7 @@ body {
 }
 
 .text {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .list {
@@ -26,15 +26,28 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.list-item-1 {
+.list-odyn {
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.list-item-1:hover,
-.list-item-1:focus {
+.list-adin {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.list-adin:hover,
+.list-adin:focus {
+    color: #404bbf;
+}
+
+.list-odyn:hover,
+.list-odyn:focus {
     color: #404bbf;
 }
 
@@ -71,13 +84,13 @@ color: #434455;
   background-color: #2e2f42;
 }
 
-.paragraph-1 {
-font-weight: 700;
+.section-odyn {
+ font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;
+color: #ffffff;
 }
 
 .button {
@@ -104,9 +117,15 @@ background-color: #404BBF;
     color: #2e2f42;
 }
 
+.paragraph-1 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
 .paragraph-two {
-    font-size: 56px;
-    line-height: 1.07;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -208,7 +227,7 @@ a:focus {
 
 .paragraph-footer {
     line-height: 1.5;
-    color: var(#F4F4FD);
+    color: var(--#F4F4FD);
     letter-spacing: 0.02em;
 }
 
