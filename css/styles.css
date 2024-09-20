@@ -15,7 +15,7 @@ body {
 }
 
 .text {
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 
 .list {
@@ -35,10 +35,11 @@ color: #2e2f42;
 }
 
 .list-adin {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .list-adin:hover,
@@ -68,6 +69,18 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.contacts-info-odyn {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-info-odyn:hover,
+.contacts-info-odyn:focus{
+   color: #404bbf
 }
 
 .contacts-info-1:hover,
@@ -227,7 +240,7 @@ a:focus {
 
 .paragraph-footer {
     line-height: 1.5;
-    color: var(--#F4F4FD);
+    color: var(--paragraph-2);
     letter-spacing: 0.02em;
 }
 
